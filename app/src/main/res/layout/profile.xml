@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/name_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="hello"
+        android:textAllCaps="true"
+        android:textColor="#FFF"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="78dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="74dp"
+        android:text="Home"
+
+        android:textAllCaps="true"
+        android:textColor="#FFF"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="78dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/textView16"
+        android:layout_marginEnd="41dp"
+        android:text="WORK"
+        android:textAllCaps="true"
+        android:textColor="#FFF"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="59dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="131dp"
+
+
+        android:text="Lights"
+        android:textColor="#FFF"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/homeLights"
+
+        android:layout_width="59dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/textView23"
+        android:layout_marginStart="111dp"
+        android:text="TextView"
+        android:textColor="#FFF"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="59dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView23"
+
+        android:layout_marginTop="174dp"
+        android:text="Fans"
+        android:textColor="#FFF"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/homeFans"
+        android:layout_width="59dp"
+
+        android:layout_height="30dp"
+        android:layout_alignStart="@+id/homeLights"
+        android:layout_alignTop="@+id/textView30"
+        android:text="TextView"
+        android:textColor="#FFF"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="99dp"
+        android:layout_height="32dp"
+
+     android:layout_marginLeft="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="217dp"
+        android:text="Refrigerator"
+        android:textColor="#FFF"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/homeOthers"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignTop="@+id/textView32"
+
+        android:layout_toEndOf="@+id/textView16"
+        android:text="TextView"
+        android:textColor="#FFF"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="59dp"
+        android:layout_height="30dp"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/textView23"
+        android:layout_marginEnd="94dp"
+        android:text="Lights"
+        android:textColor="#FFF"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/officeLights"
+        android:layout_width="59dp"
+        android:layout_height="30dp"
+        android:layout_alignTop="@+id/textView23"
+        android:layout_toEndOf="@+id/textView39"
+
+        android:text="textView"
+        android:textColor="#FFF"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="59dp"
+        android:layout_height="30dp"
+        android:layout_alignStart="@+id/textView34"
+        android:layout_alignTop="@+id/textView30"
+        android:text="Fans"
+
+        android:textColor="#FFF"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/officeFans"
+        android:layout_width="59dp"
+        android:layout_height="30dp"
+        android:layout_alignStart="@+id/officeLights"
+        android:layout_alignTop="@+id/textView30"
+        android:text="TextView"
+
+        android:textColor="#FFF"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/textView32"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="ADDItional DETAILS"
+        android:textAllCaps="true"
+        android:textColor="#FFF"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="308dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="20dp"
+        android:layout_alignStart="@+id/textView23"
+
+        android:layout_below="@+id/textView39"
+        android:text="Today's Energy Usage"
+        android:textColor="#FFF"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="308dp"
+        android:layout_height="42dp"
+        android:layout_alignStart="@+id/textView23"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/textView27"
+
+        android:text="Points earned till now"
+        android:textColor="#FFF"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="308dp"
+        android:layout_height="44dp"
+        android:layout_alignStart="@+id/textView23"
+android:layout_marginTop="10dp"
+        android:layout_below="@+id/textView31"
+
+        android:text="Target for this month"
+        android:textColor="#FFF"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="87dp"
+        android:layout_height="34dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/textView27"
+
+        android:text="20 Joules"
+        android:textColor="#FFF"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="87dp"
+        android:layout_height="34dp"
+        android:layout_alignStart="@+id/textView37"
+        android:layout_alignTop="@+id/textView31"
+
+        android:text="45"
+        android:textColor="#FFF"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="87dp"
+        android:layout_height="34dp"
+        android:layout_alignStart="@+id/textView37"
+        android:layout_alignTop="@+id/textView33"
+
+        android:text=" 100 ₹"
+        android:textColor="#FFF"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:id="@+id/edit_option"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="17dp"
+        android:layout_marginStart="-68dp"
+        android:layout_toEndOf="@+id/textView21"
+        app:srcCompat="@drawable/edit" />
+
+</RelativeLayout>

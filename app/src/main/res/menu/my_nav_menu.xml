@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/main_features">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/home_icon"
+            android:title="HOME">
+
+        </item>
+
+        <item
+            android:id="@+id/work"
+            android:icon="@drawable/work_icon"
+            android:title="WORK">
+
+        </item>
+
+        <item
+            android:id="@+id/travel"
+            android:icon="@drawable/travel_icon"
+            android:title="TRAVEL">
+
+        </item>
+
+        <item
+            android:id="@+id/other"
+            android:icon="@drawable/other"
+            android:title="OTHERS">
+
+        </item>
+    </group>
+
+    <group android:id="@+id/extra_features">
+        <item
+            android:id="@+id/challenges"
+            android:icon="@drawable/challenges"
+            android:title="CHALLENGES">
+        </item>
+
+        <item
+            android:id="@+id/Settings"
+            android:icon="@drawable/settings"
+            android:title="SETTINGS">
+        </item>
+
+        <item
+            android:id="@+id/leaderboard"
+            android:icon="@drawable/settings"
+            android:title="LEADERBOARD">
+        </item>
+    </group>
+
+
+</menu>

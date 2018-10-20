@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/surveyText"
+        android:layout_width="match_parent"
+        android:layout_height="346dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="72dp" />
+
+    <Button
+        android:id="@+id/nextPage"
+        android:background="@drawable/arrow"
+        android:layout_width="50dp"
+        android:rotation="90"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="33dp"
+        android:layout_marginEnd="38dp" />
+</RelativeLayout>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Survey3">
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="324dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView15"
+        android:layout_centerHorizontal="true"
+        android:text="@string/qn3"
+        android:layout_marginTop="5dp"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView11"
+        android:layout_centerHorizontal="true"
+        android:text="Home"
+        android:layout_marginTop="5dp"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="111dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="145dp"
+        android:layout_toStartOf="@+id/textView12"
+        android:text="No.of Lights"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/no_of_lights_in_home"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/no_of_fans_in_home"
+        android:layout_alignTop="@+id/textView13"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="111dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/no_of_fans_in_home"
+        android:layout_toStartOf="@+id/textView12"
+        android:text="No.of Fans"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:text="No.of Fans" />
+
+    <EditText
+        android:id="@+id/no_of_fans_in_home"
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/no_of_lights_in_office"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/survey_2title"
+        android:textSize="22dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="111dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="201dp"
+        android:layout_toStartOf="@+id/textView12"
+        android:text="Refrigerator"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="61dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/no_of_fans_in_home"
+        android:layout_centerHorizontal="true"
+        android:text="Office"
+        android:layout_marginTop="15dp"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:layout_marginBottom="5dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="31dp"
+        android:layout_alignEnd="@+id/textView13"
+        android:layout_below="@+id/textView18"
+        android:text="No.of Lights"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/no_of_lights_in_office"
+        android:layout_width="185dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/textView19"
+        android:layout_marginEnd="18dp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="100dp"
+        android:layout_height="28dp"
+        android:layout_alignStart="@+id/textView19"
+       android:layout_below="@+id/textView19"
+        android:layout_marginTop="30dp"
+        android:text="No.of Fans"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/no_of_fans_in_office"
+        android:layout_width="187dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/no_of_lights_in_office"
+        android:layout_alignParentEnd="true"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="72dp" />
+
+    <Button
+        android:id="@+id/continue_further"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="38dp"
+        android:text="Continue" />
+
+    <Button
+        android:id="@+id/skip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:text="SKIP" />
+
+    <Spinner
+        android:id="@+id/refrigerator_spinner"
+        android:layout_width="186dp"
+        android:layout_height="42dp"
+        android:layout_alignStart="@+id/no_of_lights_in_office"
+        android:layout_alignTop="@+id/textView17" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/continue_further"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-38dp"
+        android:text="STEP 3/5"
+        android:textSize="15dp" />
+
+
+
+</RelativeLayout>

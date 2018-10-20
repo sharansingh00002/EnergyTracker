@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sharansingh.solarifyenergy">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/solarifylogo2"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity_First" />
+        <activity android:name=".Activity_Signup" />
+        <activity android:name=".Activity_Login" />
+        <activity android:name=".Survey1" />
+        <activity android:name=".Survey2" />
+        <activity android:name=".Survey3" />
+        <activity android:name=".Survey4" />
+        <activity android:name=".Survey5" />
+        <activity android:name=".Profile" />
+        <activity android:name=".Edit_Profile" android:parentActivityName=".MainActivity"/>
+        <activity android:name=".HomeFragment"/>
+        <activity android:name=".WorkFragment"/>
+        <activity android:name=".TravelFragment"/>
+        <activity android:name=".OthersFragment"/>
+        <activity android:name=".Leaderboard"/>
+        <activity android:name=".StartChallenge"/>
+        <activity android:name=".Challenges"/>
+        <activity android:name=".DbTrial"/>
+        <activity android:name=".PreSurvey1"/>
+        <activity android:name=".PreSurvey2"/>
+        <activity android:name=".Presurvey23"/>
+        <activity android:name=".Presurvey12"/>
+        <activity android:name=".PreSurvey34"/>
+        <activity android:name=".Presurvey45"/>
+
+    </application>
+
+</manifest>

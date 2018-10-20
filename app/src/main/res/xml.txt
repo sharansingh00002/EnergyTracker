@@ -1,0 +1,16 @@
+<android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+
+        <devs.mulham.horizontalcalendar.HorizontalCalendarView
+            android:id="@+id/calendarView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:textColorNormal="#bababa"
+            app:textColorSelected="#FFFF"
+            app:selectorColor="#c62828"
+        app:selectedDateBackground="@color/colorPrimary"/>
+
+    </android.support.design.widget.AppBarLayout>

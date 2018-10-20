@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#FFF"
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:id="@+id/linearlayoutRV"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_margin="3dp"
+    android:gravity="center"
+    >
+
+    <TextView
+        android:id="@+id/leaderboard_count"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:textColor="#000"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:text="1"/>
+    <TextView
+        android:id="@+id/leaderboard_name"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:textColor="#000"
+        android:layout_marginLeft="20dp"
+        android:paddingTop="8dp"
+        android:textSize="25dp"
+        android:text="Sharanjyot Singh"
+        />
+    <TextView
+        android:id="@+id/leaderboard_value"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:text="500"
+        />
+</LinearLayout>
+</RelativeLayout>

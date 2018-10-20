@@ -1,0 +1,120 @@
+<resources>
+    <string name="app_name">Energy Tracker</string>
+    <string name="sharedPreferencesValue">com.example.sharansingh.solarifyenergy</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title">No.of hours worked?</string>
+    <string-array name="time">
+        <item>AM</item>
+        <item>PM</item>
+    </string-array>
+
+    <string name="equip">Equipments used</string>
+    <string name="nooftimes">No.of times used</string>
+
+    <string-array name="othersarray">
+        <item>Watched a movie in a Theatre</item>
+        <item>Went to a Restaurant</item>
+        <item>Ordered Food online</item>
+    </string-array>
+
+    <string name="energy">Energy consumed</string>
+
+    <string-array name="travel_values">
+        <item>Walking</item>
+        <item>Own Vehicle</item>
+        <item>Carpool</item>
+        <item>Public Transport</item>
+    </string-array>
+
+    <string-array name="refrigerator">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+    <string name="survey_title">Welcome to your journey of creating a better Earth</string>
+    <string name="set_up">Please setup your profile for a better, customized experience</string>
+    <string name="enter_name">Your Name</string>
+
+    <string name="savings">"Home Savings For Today: "</string>
+    <string name="open">Open</string>
+    <string name="closed">Closed</string>
+    <string-array name="gender_spinner">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+        <item>Choose not to specify</item>
+    </string-array>
+
+    <string name="radio_one">Home</string>
+    <string name="radio_two">Office</string>
+
+    <string name="survey_2title">Continue setting up your profile</string>
+    <string name="qn1">Where do you spend most of your time at?</string>
+    <string name="qn2">What does your typical surroundings look like?(You can edit this later)</string>
+    <string name="home">1.HOME</string>
+
+    <string-array name="timeSpent_spinner">
+        <item>Home</item>
+        <item>Travel</item>
+        <item>Office</item>
+        <item>Others</item>
+    </string-array>
+    <string name="typical_time">Typical time spent at</string>
+    <string name="qn3">What does your typical surrounding have?(You can edit this later)</string>
+
+    <string name="travel_mode">Mode of Travel</string>
+    <string-array name="travel">
+        <item>Public</item>
+        <item>Personal</item>
+        <item>Shared(Cab)</item>
+    </string-array>
+
+    <string name="Lights">Most of your lights are of the type</string>
+    <string-array name="lighttypes">
+        <item>CFL</item>
+        <item>LED</item>
+    </string-array>
+
+    <string name="ApplianceRatings">Most of your appliances have ratings of?</string>
+    <string-array name="ratings">
+        <item>1*</item>
+        <item>2*</item>
+        <item>3*</item>
+        <item>4*</item>
+        <item>5*</item>
+    </string-array>
+
+    <string name="Fans">Most of your fans are of the type</string>
+    <string-array name="fantypes">
+        <item>Regular</item>
+        <item>Guerrila</item>
+    </string-array>
+
+    <string name="Challenge_1">
+        Switch off the lights when not in use
+    </string>
+    <string name="Challenge_2">
+        Shower for less than 5 minutes
+    </string>
+    <string name="Challenge_3">
+        Turn off Computers,Printers and Office Lights when you leave
+    </string>
+    <string name="Challenge_4">
+        Change your normal bulbs to LED ones
+    </string>
+    <string name="Challenge_5">
+        Choose walking over vehicles whenever possible
+    </string>
+
+    <string name="Challenge_Desc">
+        Help us and yourself in building a sustainable earth by accepting this challenge.Through this challenge you will transform the earth into a better place.
+    </string>
+
+    <string-array name="homeTypeArray">
+        <item>One_bhk</item>
+        <item>Two_bhk</item>
+        <item>Three_bhk</item>
+        <item>Duplex</item>
+        <item>Villa</item>
+    </string-array>
+</resources>

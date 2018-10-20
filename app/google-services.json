@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "398732536342",
+    "firebase_url": "https://solarifyenergy.firebaseio.com",
+    "project_id": "solarifyenergy",
+    "storage_bucket": "solarifyenergy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:398732536342:android:e2541dd52f8b569a",
+        "android_client_info": {
+          "package_name": "com.example.sharansingh.solarifyenergy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "398732536342-qgjg333pfcqd92ln4dg93efa1dp9jmrn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sharansingh.solarifyenergy",
+            "certificate_hash": "58cb1ca170fd50390e1464f8f5492ff8ba7d6653"
+          }
+        },
+        {
+          "client_id": "398732536342-k80g9689akpekol8aapphfqgvg079nmu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzcAhzi6XcSqF4LZON1ZA8rqlFhoR7bcY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "398732536342-k80g9689akpekol8aapphfqgvg079nmu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

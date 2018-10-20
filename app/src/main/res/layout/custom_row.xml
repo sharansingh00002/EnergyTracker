@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?> <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rel"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="500dp"
+            android:layout_height="120dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="10dp"
+            android:layout_marginStart="26dp"
+            android:src="#434657" />
+
+
+        <TextView
+            android:id="@+id/challenge_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/enter"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_alignBottom="@+id/image"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="10dp"
+            android:text="Enter"
+            android:layout_marginBottom="20dp"
+            android:textColor="#fff" />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

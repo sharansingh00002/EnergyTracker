@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragHomeId"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:id="@+id/fan"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginBottom="10dp">
+
+            <ImageView
+                android:id="@+id/fanImage"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="14dp"
+
+                android:src="@drawable/fan" />
+
+            <TextView
+                android:id="@+id/fanName"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="5dp"
+                android:layout_alignTop="@+id/fanImage"
+                android:layout_toEndOf="@+id/fanImage"
+                android:textColor="#FFF"
+                android:gravity="center"
+                android:textSize="15dp"
+                android:text="1" />
+
+            <SeekBar
+                android:id="@+id/fanSeekbar"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_centerHorizontal="true"
+                android:progressDrawable="@drawable/custom_seekbar"
+                android:splitTrack="false"
+                android:thumb="@drawable/custom_thumb" />
+
+            <Button
+                android:id="@+id/fanButton"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:layout_marginBottom="24dp"
+                android:background="#333"
+                android:layout_below="@+id/fanSeekbar"
+                android:layout_alignStart="@+id/fanSeekbar"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="submit" />
+
+            <TextView
+                android:id="@+id/fan_usage"
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="17dp"
+                android:layout_marginTop="10dp"
+                android:background="#fff"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/light"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginBottom="10dp">
+
+            <ImageView
+                android:id="@+id/lightImage"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="14dp"
+                android:src="@drawable/light" />
+            <TextView
+                android:id="@+id/lightName"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="5dp"
+                android:layout_alignTop="@+id/lightImage"
+                android:layout_toEndOf="@+id/lightImage"
+                android:textColor="#FFF"
+                android:gravity="center"
+                android:textSize="15dp"
+                android:text="1" />
+
+            <SeekBar
+                android:id="@+id/lightSeekbar"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_centerHorizontal="true"
+                android:progressDrawable="@drawable/custom_seekbar"
+                android:splitTrack="false"
+                android:thumb="@drawable/custom_thumb" />
+
+            <Button
+                android:id="@+id/lightButton"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:layout_marginBottom="24dp"
+                android:background="#333"
+                android:layout_below="@+id/lightSeekbar"
+                android:layout_alignStart="@+id/lightSeekbar"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="submit" />
+
+            <TextView
+                android:id="@+id/light_usage"
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="17dp"
+                android:layout_marginTop="10dp"
+                android:background="#fff"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/others"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginBottom="10dp">
+
+            <ImageView
+                android:id="@+id/othersImage"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="14dp"
+                android:background="#fff"
+                android:src="@drawable/others" />
+            <TextView
+                android:id="@+id/othersName"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="5dp"
+                android:layout_alignTop="@+id/othersImage"
+                android:layout_toEndOf="@+id/othersImage"
+                android:textColor="#FFF"
+                android:gravity="center"
+                android:textSize="15dp"
+                android:text="1" />
+
+            <SeekBar
+                android:id="@+id/othersSeekbar"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_centerHorizontal="true"
+                android:progressDrawable="@drawable/custom_seekbar"
+                android:splitTrack="false"
+                android:thumb="@drawable/custom_thumb" />
+
+            <Button
+                android:id="@+id/othersButton"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:layout_marginBottom="24dp"
+                android:background="#333"
+                android:layout_below="@+id/othersSeekbar"
+                android:layout_alignStart="@+id/othersSeekbar"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="submit" />
+
+            <TextView
+                android:id="@+id/other_usage"
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="17dp"
+                android:layout_marginTop="10dp"
+                android:background="#fff"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/homeSavings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:padding="5dp"
+                android:text="Home Savings For Today :0"
+                android:textColor="#fff"
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/appliancesClickedButton"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:text="Appliances"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginBottom="29dp"
+                android:layout_marginEnd="21dp"
+                android:onClick="appliancesOpen" />
+
+
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/appliances"
+        android:layout_width="300dp"
+        android:layout_height="350dp"
+        android:layout_gravity="center"
+        android:alpha="0.0"
+        android:background="#000"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/appliancesTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Enter the Usage in Hours"
+            android:textColor="#FFF"
+            android:textSize="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/appliancesTitle"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/acLinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/acImage"
+                    android:layout_width="50dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/ac" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:text="AC"
+                    android:textSize="20dp" />
+
+                <EditText
+                    android:id="@+id/acEditText"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="90dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#FFF"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:text="0"
+                    android:textColor="#000"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/geyserLinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/geyserImage"
+                    android:layout_width="50dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/geyser" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:text="Geyser"
+                    android:textSize="20dp" />
+
+                <EditText
+                    android:id="@+id/geyserEditText"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="55dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#FFF"
+                    android:inputType="number"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="#000"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/washingMachineLinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/washingMachineImage"
+                    android:layout_width="50dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/washing_machine" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:text="Washing M."
+                    android:textSize="20dp" />
+
+                <EditText
+                    android:id="@+id/washingMachineEditText"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:inputType="number"
+                    android:background="#FFF"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="#000"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/appliancesSubmitButton"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="11dp"
+            android:text="SUBMIT" />
+    </RelativeLayout>
+
+</FrameLayout>
